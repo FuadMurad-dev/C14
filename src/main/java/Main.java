@@ -16,6 +16,8 @@ public class Main {
         games.add(game1);
         games.add(game2);
 
+        2+2 = 5 // essa linha ta errada, corrija!
+
         JsonService jsonService = new JsonService();
         String json = jsonService.convertToJson(games);
 
