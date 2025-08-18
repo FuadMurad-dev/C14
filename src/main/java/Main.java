@@ -3,13 +3,33 @@ import information.Game;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        Game game1 = Game.builder().name("Expedition 33").music("Lumiere").build();
-        Game game2 = Game.builder().name("Elden ring").music("Main theme").build();
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Digite o nome do jogo:");
+
+        String nome = in.nextLine();
+
+        System.out.println("Digite o tema do jogo:");
+
+        String tema = in.nextLine();
+
+        Game game1 = Game.builder().name(nome).music(tema).build();
+
+        System.out.println("Digite o nome de outro jogo:");
+
+        nome = in.nextLine();
+
+        System.out.println("Digite o tema deste outro jogo:");
+
+        tema = in.nextLine();
+
+        Game game2 = Game.builder().name(nome).music(tema).build();
 
         List<Game> games = new ArrayList<>();
 
