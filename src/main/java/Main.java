@@ -11,7 +11,8 @@ public class Main {
         Game game1 = Game.builder().name("Expedition 33").music("Lumiere").build();
         Game game2 = Game.builder().name("Elden ring").music("Main theme").build();
         Game game3 = Game.builder().name("STAR WARS: A GUERRA DOS CLONES").music("DUEL OF FATES").build();
-        Game game4 = Game.builder().name("Hades").music("Main theme").build(); 
+        Game game4 = Game.builder().name("Hades").music("Main theme").difficulty("HARD").MetaScore(8.0).Year(2016).build();
+        Game game5 = Game.builder().name("Teste").build();
 
         List<Game> games = new ArrayList<>();
 
