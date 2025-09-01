@@ -18,6 +18,7 @@ public class Main {
         games.add(game1);
         games.add(game2);
         games.add(game3);
+        games.add(game4);
 
         JsonService jsonService = new JsonService();
         String json = jsonService.convertToJson(games);
