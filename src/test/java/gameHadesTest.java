@@ -43,6 +43,6 @@ public class gameHadesTest {
 
     @Test
     public void testGameYear() {
-        assertEquals(2015, hades.getYear());
+        assertEquals(2016, hades.getYear());
     }
 }
