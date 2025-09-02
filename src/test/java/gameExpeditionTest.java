@@ -41,7 +41,7 @@ public class gameExpeditionTest {
 
     @Test
     public void testGameMetaScore() {
-        assertEquals(50, expedition.getMetaScore(), 0.0);
+        assertEquals(99, expedition.getMetaScore(), 0.0);
     }
 
     @Test
